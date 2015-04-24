@@ -1,4 +1,4 @@
-Data Dictionary/Code Book
+**Data Dictionary/Code Book**
 
 1.  Subject: Subject who performed the activity. Range from 1 to 30
 2.  Activity: The activity that subject perform
@@ -76,8 +76,8 @@ Data Dictionary/Code Book
 68. frequencyBodyBody.GyroscopeJerk.Magnitude.standard.deviation.
 
 
-Data Summary
--------------
+**Data Summary**
+
 'data.frame':	180 obs. of  68 variables:
  $ Subject                                                         : chr  "LAYING" "SITTING" "STANDING" "WALKING" ...
  $ Activity                                                        : int  1 1 1 1 1 1 2 2 2 2 ...
