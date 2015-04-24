@@ -61,4 +61,4 @@ Temp3 <- subset_data[,-c(ncol(subset_data)-1, ncol(subset_data))]
 Independent_Set <- aggregate(Temp3, by = list(subset_data$Activity, subset_data$Subject), mean)
 colnames(Independent_Set)[1] <- "Subject"
 colnames(Independent_Set)[2] <- "Activity"
-write.table(Independent_Set, "Independent_Set.txt")
+write.table(Independent_Set, "Independent_Set.txt", row.name=FALSE)
